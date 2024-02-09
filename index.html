@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cronometro</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -13,7 +14,12 @@
     </header>
     <main>
       <div class="container">
-        <div class="span" id="tempo"></div>
+        <div class="tempo" id="tempo">
+          <ul>
+            <li id="segundos">0 s</li>
+            <li id="mili">0</li>
+          </ul>
+        </div>
         <ul>
           <li id="stop">stop</li>
           <li id="start">start</li>

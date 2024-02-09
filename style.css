@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(177, 127, 224);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1,
+.tempo {
+  text-align: center;
+  font-size: max(3vw, 20px);
+  padding-bottom: 5%;
+  color: white;
+}
+
+h1 {
+  padding-top: 5%;
+}
+
+.tempo ul {
+  justify-content: center;
+}
+
+.tempo ul li {
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  width: max-content;
+  padding: 5px;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(109, 12, 199);
+  font-size: 40px;
+  color: white;
+}
