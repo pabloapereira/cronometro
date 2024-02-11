@@ -31,6 +31,7 @@ h1 {
 
 .tempo ul li {
   background-color: black;
+  cursor: pointer;
 }
 
 ul {
@@ -47,4 +48,5 @@ li {
   background-color: rgb(109, 12, 199);
   font-size: 40px;
   color: white;
+  cursor: pointer;
 }
